@@ -613,7 +613,6 @@ input[type="number"] {
 }
 
 .tempParent {
-  border: 2px solid red;
   width: 80%;
   display: grid;
   grid: auto/ auto auto auto;
@@ -623,7 +622,6 @@ input[type="number"] {
 
 @media (min-width: 1170px) and (max-width: 1290px) {
   .tempParent {
-    border: 2px solid red;
     width: 80%;
     display: grid;
     grid: auto/ auto auto auto;
@@ -635,7 +633,6 @@ input[type="number"] {
 @media (max-width: 1169px) {
   .tempParent {
     top: 0%;
-    border: 2px solid red;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
