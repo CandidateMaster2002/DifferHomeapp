@@ -6,9 +6,9 @@ const LoginPage = () => {
     const handleChange = (event) =>{
         console.log(event);
                 const name =  event.target.name;
-                const value = event.target.value;
-                setUser(values => ({...values,
-                    [name]: value})
+                const houseue = event.target.houseue;
+                setUser(houseues => ({...houseues,
+                    [name]: houseue})
                 )
 
     }
@@ -58,10 +58,10 @@ const LoginPage = () => {
 
                     <div className="LoginBox">
                         <label for="uname"><b>User Name</b></label>
-                        <input name = "email" value={user.email || ""} onChange ={handleChange} type="text" placeholder="Enter Username" required />
+                        <input name = "email" houseue={user.email || ""} onChange ={handleChange} type="text" placeholder="Enter Username" required />
 
                         <label for="psw"><b>Password</b></label>
-                        <input name= "password" type="password" placeholder="Enter Password" value={user.password || ""} onChange ={handleChange}  required />
+                        <input name= "password" type="password" placeholder="Enter Password" houseue={user.password || ""} onChange ={handleChange}  required />
 
                         <button type="submit" >Login</button>
                         <label>

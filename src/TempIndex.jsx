@@ -9,21 +9,21 @@ import { useEffect } from "react";
 
 const TempIndex = () => {
 
-    const val=useContext(context);
-    //console.log("dd");
-    console.log(val);
+    const houses=useContext(context);
+    console.log("dd");
+    console.log(houses);
     return(
         <>
         
-            {Tempdata.map((val) => {
+            {houses.map((house) => {
                 return (
                     <Template
-                        key={val.id}
-                        imgsrc={val.imgsrc}
-                        title={val.title}
-                        address={val.address}
-                        bhk={val.bhk}
-                        price={val.price}
+                        key={house._id}
+                        imgsrc={house.photos}
+                        title={house.propertyName}
+                        address={house.city}
+                        bhk={house.bedrooms}
+                        price={house.price}
                     />
                 );
             })}
