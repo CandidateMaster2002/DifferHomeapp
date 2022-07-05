@@ -38,45 +38,45 @@ const Home = () => {
             <div className="searchbox" data-aos="fade-left" data-aos-duration="2000">
                 <h4>Looking For :</h4>
                 <form action="/filter1" method="get">
-                    <input type="radio" id="apartment" name="opt-1" value="Apartment" />
+                    <input type="radio" id="apartment" name="opt-1" houseue="Apartment" />
                     <label for="Apartment">Apartment</label>
-                    <input type="radio" id="villa" name="opt-2" value="Villa" />
+                    <input type="radio" id="villa" name="opt-2" houseue="Villa" />
                     <label for="villa">Bungalow/Villa</label><br />
-                    <input type="radio" id="plot" name="opt-3" value="Plot" />
+                    <input type="radio" id="plot" name="opt-3" houseue="Plot" />
                     <label for="plot">Plot/Villa</label><br />
 
                     <div className="state_name">
                         <label for="State">Select State :</label><br />
                         <input list="states" name="States" placeholder="States" />
                         <datalist id="states" >
-                            {/* <option value="Andhra Pradesh" />
-                     <option value="Arunachal Pradesh" />
-                     <option value="Assam" />
-                     <option value="Bihar" />
-                     <option value="Chhattisgarh" />
-                     <option value="Goa" />
-                     <option value="Gujarat" />
-                     <option value="Haryana" />
-                     <option value="Himachal Pradesh" />
-                     <option value="Jharkhand" />
-                     <option value="Karnataka" />
-                     <option value="Kerala" />
-                     <option value="Madhya Pradesh" />
-                     <option value="Maharashtra" />
-                     <option value="Manipur" />
-                     <option value="Meghalaya" />
-                     <option value="Mizoram" />
-                     <option value="Nagaland" />
-                     <option value="Odisha" />
-                     <option value="Punjab" /> */}
-                            <option value="Rajasthan" />
-                            {/* <option value="Sikkim" />
-                     <option value="Tamil Nadu" />
-                     <option value="Telangana" />
-                     <option value="Tripura" />
-                     <option value="Uttar Pradesh" />
-                     <option value="Uttarakhand" />
-                     <option value="West Bengal" /> */}
+                            {/* <option houseue="Andhra Pradesh" />
+                     <option houseue="Arunachal Pradesh" />
+                     <option houseue="Assam" />
+                     <option houseue="Bihar" />
+                     <option houseue="Chhattisgarh" />
+                     <option houseue="Goa" />
+                     <option houseue="Gujarat" />
+                     <option houseue="Haryana" />
+                     <option houseue="Himachal Pradesh" />
+                     <option houseue="Jharkhand" />
+                     <option houseue="Karnataka" />
+                     <option houseue="Kerala" />
+                     <option houseue="Madhya Pradesh" />
+                     <option houseue="Maharashtra" />
+                     <option houseue="Manipur" />
+                     <option houseue="Meghalaya" />
+                     <option houseue="Mizoram" />
+                     <option houseue="Nagaland" />
+                     <option houseue="Odisha" />
+                     <option houseue="Punjab" /> */}
+                            <option houseue="Rajasthan" />
+                            {/* <option houseue="Sikkim" />
+                     <option houseue="Tamil Nadu" />
+                     <option houseue="Telangana" />
+                     <option houseue="Tripura" />
+                     <option houseue="Uttar Pradesh" />
+                     <option houseue="Uttarakhand" />
+                     <option houseue="West Bengal" /> */}
 
                         </datalist> <br />
                     </div>
@@ -85,39 +85,39 @@ const Home = () => {
                         <label for="City">Select City :</label><br />
                         <input list="cities" name="city" placeholder="City" />
                         <datalist id="cities" >
-                            {/* <option value="Amaravati" />
-                     <option value="Itanagar" />
-                     <option value="Dispur" />
-                     <option value="Patna" />
-                     <option value="Raipur" />
-                     <option value="Panaji" />
-                     <option value="Gandhinagar" />
-                     <option value="Chandigarh" />
-                     <option value="Shimla" />
-                     <option value="Ranchi" />
-                     <option value="Bengaluru" />
-                     <option value="Thiruvananthapuram" />
-                     <option value="Bhopal" />
-                     <option value="Mumbai" />
-                     <option value="Imphal" />
-                     <option value="Shillong" />
-                     <option value="Aizawl" />
-                     <option value="Kohima" />
-                     <option value="Bhubaneswar" />
-                     <option value="Chandigarh" /> */}
-                            <option value="Jaipur" />
-                            {/* <option value="Gangtok" />
-                     <option value="Chennai" />
-                     <option value="Hyderabad" />
-                     <option value="Agartala" />
-                     <option value="Lucknow" />
-                     <option value="Dehradun" />
-                     <option value="Kolkata" /> */}
-                            <option value="Jodhpur" />
-                            <option value="Udaipur" />
-                            <option value="Ajmer" />
-                            <option value="Kota" />
-                            <option value="Alwar" />
+                            {/* <option houseue="Amaravati" />
+                     <option houseue="Itanagar" />
+                     <option houseue="Dispur" />
+                     <option houseue="Patna" />
+                     <option houseue="Raipur" />
+                     <option houseue="Panaji" />
+                     <option houseue="Gandhinagar" />
+                     <option houseue="Chandigarh" />
+                     <option houseue="Shimla" />
+                     <option houseue="Ranchi" />
+                     <option houseue="Bengaluru" />
+                     <option houseue="Thiruvananthapuram" />
+                     <option houseue="Bhopal" />
+                     <option houseue="Mumbai" />
+                     <option houseue="Imphal" />
+                     <option houseue="Shillong" />
+                     <option houseue="Aizawl" />
+                     <option houseue="Kohima" />
+                     <option houseue="Bhubaneswar" />
+                     <option houseue="Chandigarh" /> */}
+                            <option houseue="Jaipur" />
+                            {/* <option houseue="Gangtok" />
+                     <option houseue="Chennai" />
+                     <option houseue="Hyderabad" />
+                     <option houseue="Agartala" />
+                     <option houseue="Lucknow" />
+                     <option houseue="Dehradun" />
+                     <option houseue="Kolkata" /> */}
+                            <option houseue="Jodhpur" />
+                            <option houseue="Udaipur" />
+                            <option houseue="Ajmer" />
+                            <option houseue="Kota" />
+                            <option houseue="Alwar" />
 
 
                         </datalist> <br />
