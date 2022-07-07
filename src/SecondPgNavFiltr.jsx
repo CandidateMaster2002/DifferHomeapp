@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import context from "./Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBed, faCaretDown, faIndianRupee, faSearch, } from "@fortawesome/free-solid-svg-icons";
-import Service from "./Service";
 
 const SecondPgNavFiltr = () => {
 
@@ -244,7 +243,7 @@ const SecondPgNavFiltr = () => {
                 <span className="icon icon-bars"></span>
                 <span className="icon icon-bars overlay"></span>
               </div>
-            </div >
+            </div>
           </div>
 
           {/* ----------Filter section heading------------- */}
