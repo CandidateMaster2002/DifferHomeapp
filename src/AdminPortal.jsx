@@ -19,15 +19,15 @@ const AdminPortal = () => {
                         <div>
                             <label for="proptype"><b>Property Type</b></label>
                             <select id="proptype" name="proptype">
-                                <option value="bung">Bungalow</option>
-                                <option value="villa">Villa/Plot</option>
-                                <option value="aprt">Apartment</option> </select>
+                                <option houseue="bung">Bungalow</option>
+                                <option houseue="villa">Villa/Plot</option>
+                                <option houseue="aprt">Apartment</option> </select>
 
                             <label for="areatype"><b>Area Type</b></label>
                             <select id="areatype" name="areatype">
-                                <option value="res">Residental</option>
-                                <option value="com">Commertial</option>
-                                <option value="rs-cm">Resi-Comm</option> </select>
+                                <option houseue="res">Residental</option>
+                                <option houseue="com">Commertial</option>
+                                <option houseue="rs-cm">Resi-Comm</option> </select>
                         </div>
                         <div className='Location'>
                             <label for="location"><b>Location: City</b></label>
